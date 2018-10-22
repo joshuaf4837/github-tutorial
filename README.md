@@ -15,6 +15,7 @@ The **_difference_** between git and github is that git is to manage your code, 
 
 ---
 ## Initial Setup
+To create a **[Github]( https://github.com/join?source=header-home)** account go on their website. (link in blue)
 
 
 
@@ -56,12 +57,26 @@ git push
 
 ---
 ## Rolling Back Changes
-
-
+ To undo text
+ ```
+ Git checkout (filename)
+```
+To undo add
+```
+Git reset HEAD filename
+```
+To undo commit
+```
+Git reset --soft HEAD~1
+```
+To undo all 3: Text, add, commit
+```
+Git reset --hard HEAD~1
+```
 
 ---
 ## Error Handling
-
+If you did "init"in the wrong directory then.
 
 ---
 ## Collaboration

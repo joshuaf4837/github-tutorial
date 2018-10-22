@@ -16,6 +16,7 @@ The **_difference_** between git and github is that git is to manage your code, 
 ---
 ## Initial Setup
 To create a **[Github]( https://github.com/join?source=header-home)** account go on their website. (link in blue)
+Throughout your git work, you will need 
 
 
 
@@ -28,11 +29,6 @@ git init
 
 ---
 ## Workflow & Commands
-
-
-
-
-
 Status allows you too see where you are in your code. It displays the current directory and what staging area you are in. It is command to see which files have been edited since the last commit.
 ```
 git status 
@@ -80,3 +76,16 @@ If you did "init"in the wrong directory then.
 
 ---
 ## Collaboration
+When you fork on Github, That means you have a remote copy of the other persons remote repository. You are able to clone your remote to local and you are able to push to **your own remote.**  
+A **remote** is a common repository for all members to exchange the edits/changes the make. You can push or pull from a remote.
+
+Once you fork a repository and would like to add your changes, You **must submit** a pull request. Your pull request can either be accepted or denied. If accepted, the changes you have made will be on the their local repo.  
+If you are recieving requests, you can see them on the pull requests tab and accept or deny which changes you desire and will benefit you. To see the edit/changes use git pull
+```
+git pull
+```
+
+Remember too:  
+* clone with ssh key  
+* Fork before you clone
+* 

@@ -28,12 +28,13 @@ An **SSH Key** is needed for your git and github work. To set it up go to [c9.io
 7. Lastly, paste the SSH key you have copied on cloud9
 ---
 ## Repository Setup
-To creat a repository go onto Github with your signed in account. Once you are there click on the "+"" icon and select new repository. After that
-1. give your repository a name
+1. To create a repository go onto Github with your signed in account. Once you are there click on the "+" icon and select new repository. After that
+give your repository a name
 2. select if you want it to be public or private
 3. Click on "create repository"
 4. copy the two lines of code that are in the " push an existing repository from the command line" tab
 5. Once copied, go to your cloud 9 workspace, press "alt t" to open up your workspace
+6. Clone the repository
 6. cd into the Repository you have created
 ```
 cd (Filename)
@@ -61,7 +62,7 @@ Adds all files even the deleted and renamed files.
 ```
 git add -all
 ```
-commit lets you too record your changes/edits to your repository.  
+commit lets you record your changes/edits to your repository.  
 ```
 git commit
 ```
@@ -73,7 +74,7 @@ git push
 
 ---
 ## Rolling Back Changes
- To undo text
+To undo text
  ```
  Git checkout (filename)
 ```

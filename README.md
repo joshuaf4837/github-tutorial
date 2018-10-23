@@ -15,11 +15,17 @@ The **_difference_** between git and github is that git is to manage your code, 
 
 ---
 ## Initial Setup
-To create a **[Github]( https://github.com/join?source=header-home)** account go on their website. (link in blue)
-Throughout your git work, you will need 
+To create a **[Github]( https://github.com/join?source=header-home)** account go on their website. (link in blue)  
+Use your school email or email you normally use
 
-
-
+An **SSH Key** is needed for your git and github work. To set it up go to [c9.io](https://c9.io/joshuaf4837)
+1. Go to settings
+2. Click on the **SSH keys** tab
+3. copy and paste the second SSH key that is given
+4. Go to the **[github](github.com)** website 
+5. select settings and go to the SSH and GPG keys 
+6. click on "new SSH key"
+7. Lastly, paste the SSH key you have copied on cloud9
 ---
 ## Repository Setup
 Init (initialize) creates a new repository. This is the first command that you will use when using Git, without git init, most git commands cannot be used because you are not in a repository, you are outside an initialized repo without git init.
@@ -72,11 +78,21 @@ Git reset --hard HEAD~1
 
 ---
 ## Error Handling
-If you did "init"in the wrong directory then.
+If you did "init"in the wrong directory then. * NOT DONE *
 
 ---
 ## Collaboration
-When you fork on Github, That means you have a remote copy of the other persons remote repository. You are able to clone your remote to local and you are able to push to **your own remote.**  
+When you clone, you are making a copy from remote to local.  
+*You can clone a repository that is not even yours*  
+To clone use:
+```
+git clone (URL)
+```
+**ALWAYS cd into the directory after it is cloned**
+
+
+When you fork on Github, That means you have a remote copy of the other persons remote repository. You are able to clone your remote to local and you are able to push to **your own remote.** 
+
 A **remote** is a common repository for all members to exchange the edits/changes the make. You can push or pull from a remote.
 
 Once you fork a repository and would like to add your changes, You **must submit** a pull request. Your pull request can either be accepted or denied. If accepted, the changes you have made will be on the their local repo.  
@@ -88,4 +104,3 @@ git pull
 Remember too:  
 * clone with ssh key  
 * Fork before you clone
-* 

@@ -118,4 +118,4 @@ git pull
 
 Remember too:  
 * clone with ssh key  
-* Fork before you clone
+* Fork before you clone (if you want to make a copy of the remote repository so you can edit.)

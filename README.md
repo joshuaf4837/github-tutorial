@@ -93,7 +93,7 @@ Git reset --hard HEAD~1
 
 ---
 ## Error Handling
-If you did "init"in the wrong directory then. * NOT DONE *
+If you did "init"in the wrong directory then. * NOT DONE 
 
 ---
 ## Collaboration

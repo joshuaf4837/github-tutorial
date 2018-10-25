@@ -25,8 +25,10 @@ An **SSH Key** is needed for your git and github work. To set it up go to [c9.io
 4. Go to the **[github](github.com)** website 
 5. select settings and go to the SSH and GPG keys 
 6. click on "new SSH key"
-7. Lastly, paste the SSH key you have copied on cloud9
+7. Lastly, paste the SSH key you have copied on cloud9  
 ---
+
+
 ## Repository Setup
 1. To create a repository go onto Github with your signed in account. Once you are there click on the "+" icon and select new repository. After that
 give your repository a name
@@ -51,6 +53,7 @@ cd (Filename)
 ---
 ## Workflow & Commands
 Status allows you too see where you are in your code. It displays the current directory and what staging area you are in. It is command to see which files have been edited since the last commit.
+If the text is in green that means you are ready to commit. If the text is in red that indicates that nothing new will be added in your next commit.
 ```
 git status 
 ```
@@ -62,12 +65,14 @@ Adds all files even the deleted and renamed files.
 ```
 git add -all
 ```
-commit lets you record your changes/edits to your repository.  
+commit lets you record your changes/edits to your repository. Commenting on your code is such a benefit for you and others because it represents what changes you have made and can help you decide what to add later on.  
+*Make sure you messages are in the present tense.* Ex: "minor changes to ..."
 ```
 git commit
 ```
 
-push allows you too add your commits you have done on your local repo to a remote.
+push allows you too add your commits you have done on your local repo to a remote.  
+Using "git push -u origin master" is highly suggested the first time you decide to push changes. This will push changes from the branches to your remote.
 ```
 git push
 ```
@@ -93,7 +98,20 @@ Git reset --hard HEAD~1
 
 ---
 ## Error Handling
-If you did "init"in the wrong directory then. * NOT DONE 
+If you choose to delete your remote, go to the Github website
+1. Go to the repository you want deleted **settings tab**
+2. Scroll all the way down to the "Danger zone" tab
+3. Click "delete this repository". _You will be asked to type in the repo name for confirmation of deletion._
+
+
+
+
+To delete your local repository you must 
+1. **Exit** the Repo folder you are in on cloud9. cd .. or cd ~/worskpace
+2. use rm -rf and then type in the file name and it will be deleted.
+``` 
+rm -rf (folder name)
+```
 
 ---
 ## Collaboration
